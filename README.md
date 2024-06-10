@@ -1,23 +1,61 @@
-# Friday Night Funkin' - Psych Engine
-Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
+# Future Bass Funkin
 
-## Installation:
-You must have [the most up-to-date version of Haxe](https://haxe.org/download/), seriously, stop using 4.1.5, it misses some stuff.
-
-Follow a Friday Night Funkin' source code compilation tutorial, after this you will need to install LuaJIT.
-
-To install LuaJIT do this: `haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit` on a Command prompt/PowerShell
-
-...Or if you don't want your mod to be able to run .lua scripts, delete the "LUA_ALLOWED" line on Project.xml
-
-
-If you get an error about StatePointer when using Lua, run `haxelib remove linc_luajit` into Command Prompt/PowerShell, then re-install linc_luajit.
-
-If you want video support on your mod, simply do `haxelib install hxCodec` on a Command prompt/PowerShell
-
-otherwise, you can delete the "VIDEOS_ALLOWED" Line on Project.xml
+## Future Wave Studios
 
 ## Credits:
+### Owner
+* WuTang - Owner
+
+### Co Diretors  
+* Yori - Co Director
+* Caliber - Co Director
+
+### Composers  
+* Prodigy - Composer
+* Savour - Composer
+* Sunnykun - Composer
+* Nesquik - Composer
+* Darkstop - Composer
+* Yori - Composer
+* Noichi - Composer
+* WuTang - Composer
+
+### Artists & Animators
+* Furanzou - Artist
+* Iron Mario - Artist
+* Devilmean - Artsit
+* Hoshi - Artist
+* 18GST - Artist
+* Cinnamon - Artist
+* Fooxy - Artist
+* magencopy - Artist
+* R.Bob - Artist/Animator
+* Wooly - Artist
+* k1rameki - Artist
+* eldimer22- Artist
+* JackieYaGee - Artist
+* imugly_ew - Artist
+* Monikaa - Artist
+
+### Coders
+* It's_Miles - Coder
+* Zbyszeq - Coder
+* SNB - Coder
+
+### Voice Actors
+* Skye6890
+* Selene
+
+### Charters
+* raveneye - Charter
+* Switchy2023 - Charter
+
+### Lore
+* Niyo - Lore/Script
+* Yori - Lore/Scripter
+* WuTang - Lore/Script
+
+# Pysch Engine Team
 * Shadow Mario - Programmer
 * RiverOaken - Artist
 * Yoshubs - Assistant Programmer
@@ -34,71 +72,32 @@ otherwise, you can delete the "VIDEOS_ALLOWED" Line on Project.xml
 * Nebula the Zorua - LUA JIT Fork and some Lua reworks
 _____________________________________
 
-# Features
+# Mod Lore 
+In the distant future, music has evolved to a new level, and the most popular genre of music is called "Future Bass." The citizens of the galaxy are transported by the genre's innovative rhythms and the way it breathes life into sound. One of the most well-known Future Bass artists is Zip, a charismatic performer who uses bass as his voice to entertain his fans. 
 
-## Attractive animated dialogue boxes:
+Zip lives on a planet called Novotha, which has a dangerous atmosphere that requires all residents to wear special masks to survive. Despite the challenges of living in Novotha, Zip continues to create music that inspires and excites his listeners.
 
-![](https://user-images.githubusercontent.com/44785097/127706669-71cd5cdb-5c2a-4ecc-871b-98a276ae8070.gif)
+One day, Zip meets Yuri, a beautiful bio-android transformed by a wealthy and influential couple. The couple paid a scientist to experiment on Yuri, hoping to enhance her abilities. However, during the experiment, something went wrong, and Yuri gained a mind of her own, breaking free from her creators and finding her way to Novotha.
 
+Yori has an incredible singing talent, and she quickly gained popularity among the fans of Future Bass. She and Zip become fierce competitors, constantly challenging each other to see who is the best performer in the genre. As their rivalry intensifies, they begin to push the limits of what is possible in Future Bass music.
 
-## Mod Support
-* Probably one of the main points of this engine, you can code in .lua files outside of the source code, making your own weeks without even messing with the source!
-* Comes with a Mod Organizing/Disabling Menu.
+The two eventually find themselves on opposite sides of a Future Bass battle, each determined to prove their worth to the people of Novotha and the other. The competition heats up as Zip and Yuri pour their hearts and souls into their performances, each striving to demonstrate that their voice is the ultimate representation of Future Bass.
 
+As the final notes of their performances fade into the air, the people of Novotha are left in awe, realizing that they have just witnessed a musical revolution unlike anything they have ever seen before. The rivalry between Zip and Yuri has sparked an incredible new era in Future Bass, and their music will continue to inspire and excite generations to come.
 
-## Atleast one change to every week:
-### Week 1:
-  * New Dad Left sing sprite
-  * Unused stage lights are now used
-### Week 2:
-  * Both BF and Skid & Pump does "Hey!" animations
-  * Thunders does a quick light flash and zooms the camera in slightly
-  * Added a quick transition/cutscene to Monster
-### Week 3:
-  * BF does "Hey!" during Philly Nice
-  * Blammed has a cool new colors flash during that sick part of the song
-### Week 4:
-  * Better hair physics for Mom/Boyfriend (Maybe even slightly better than Week 7's :eyes:)
-  * Henchmen die during all songs. Yeah :(
-### Week 5:
-  * Bottom Boppers and GF does "Hey!" animations during Cocoa and Eggnog
-  * On Winter Horrorland, GF bops her head slower in some parts of the song.
-### Week 6:
-  * On Thorns, the HUD is hidden during the cutscene
-  * Also there's the Background girls being spooky during the "Hey!" parts of the Instrumental
+# Planet Lore
+Novotha, also known as Planet 420, is a remarkable planet that exists in a parallel dimension where technological advancements have surpassed the limits of our regular Earth. One of the notable distinctions of Novotha is the absence of an ozone layer, which traditionally shields planets from harmful solar radiation. However, this unique characteristic on Novotha is due to the scarcity of the gas responsible for ozone depletion.
 
-## Cool new Chart Editor changes and countless bug fixes
-![](https://github.com/ShadowMario/FNF-PsychEngine/blob/main/docs/img/chart.png?raw=true)
-* You can now chart "Event" notes, which are bookmarks that trigger specific actions that usually were hardcoded on the vanilla version of the game.
-* Your song's BPM can now have decimal values
-* You can manually adjust a Note's strum time if you're really going for milisecond precision
-* You can change a note's type on the Editor, it comes with two example types:
-  * Alt Animation: Forces an alt animation to play, useful for songs like Ugh/Stress
-  * Hey: Forces a "Hey" animation instead of the base Sing animation, if Boyfriend hits this note, Girlfriend will do a "Hey!" too.
+Unlike regular Earth, the residents of Novotha need not worry about the damaging effects of the sun on their skin. The absence of harmful solar radiation allows for a more comfortable and relaxed outdoor lifestyle. The planet's sun, while still providing warmth and light, emits a less intense form of energy that is beneficial and safe for its inhabitants.
 
-## Multiple editors to assist you in making your own Mod
-![Screenshot_3](https://user-images.githubusercontent.com/44785097/144629914-1fe55999-2f18-4cc1-bc70-afe616d74ae5.png)
-* Working both for Source code modding and Downloaded builds!
+Nevertheless, Novotha's atmosphere presents its own set of challenges. The air on the planet contains a particular gas that, when inhaled in excessive amounts, can lead to poisoning and detrimental health effects. To counter this, the residents of Novotha rely on special masks specifically designed to filter the hazardous gas and provide them with a constant supply of oxygen. These masks not only ensure their safety but also enable them to navigate and explore the planet's diverse landscapes with confidence.
 
-## Story mode menu rework:
-![](https://i.imgur.com/UB2EKpV.png)
-* Added a different BG to every song (less Tutorial)
-* All menu characters are now in individual spritesheets, makes modding it easier.
+Novotha boasts a multitude of awe-inspiring locations, each with its distinct charm. From the bustling streets of The Intersection, where influential figures of Novotha gather and create, to the tranquil ambiance of the Café, where artists find solace and inspiration, Novotha offers a rich tapestry of places for its residents to thrive and express their creativity.
 
-## Credits menu
-![Screenshot_1](https://user-images.githubusercontent.com/44785097/144632635-f263fb22-b879-4d6b-96d6-865e9562b907.png)
-* You can add a head icon, name, description and a Redirect link for when the player presses Enter while the item is currently selected.
+# Character Lore
+## Yuri - 
+Yuri, a bio-android transformed by a wealthy and influential couple. The couple paid a scientist to experiment on Yuri, hoping to enhance her abilities. However, during the experiment, something went wrong, and Yuri gained a mind of her own, breaking free from her creators and finding her way to Novotha. 
+Yuri has an incredible singing talent, and she quickly gained popularity among the fans of Future Bass.
 
-## Awards/Achievements
-* The engine comes with 16 example achievements that you can mess with and learn how it works (Check Achievements.hx and search for "checkForAchievement" on PlayState.hx)
-
-## Options menu:
-* You can change Note colors, Delay and Combo Offset, Controls and Preferences there.
- * On Preferences you can toggle Downscroll, Middlescroll, Anti-Aliasing, Framerate, Low Quality, Note Splashes, Flashing Lights, etc.
-
-## Other gameplay features:
-* When the enemy hits a note, their strum note also glows.
-* Lag doesn't impact the camera movement and player icon scaling anymore.
-* Some stuff based on Week 7's changes has been put in (Background colors on Freeplay, Note splashes)
-* You can reset your Score on Freeplay/Story Mode by pressing Reset button.
-* You can listen to a song or adjust Scroll Speed/Damage taken/etc. on Freeplay by pressing Space.
+## Zip -
+A human who was born into the realm of “Novotha '' and much different from everyone else, born a human he was not immune to the toxin arousing within the realm. Day after day it slowly suffocated him but luckily he thought of an idea that was sure to solve his pain. After days of inventing, trial, and error he finally found the cure to the toxin with a look of purple-like ooze. Placing the jars on the sides of his bag and filling them up with the bass he was now immune to the toxin, but trying to talk he realized his voice began to change, more of a saw bass-like voice. With this new voice, he decided to take up a new hobby, singing, which to his fortune it worked well and soon to fame within the realm. Later on, he renames this purple ooze to “Bass Fluid” and continues to dazzle his crowd with his voice.
