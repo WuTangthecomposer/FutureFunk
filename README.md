@@ -41,10 +41,11 @@
 * It's_Miles - Coder
 * Zbyszeq - Coder
 * SNB - Coder
+* Aaron R - Coder
 
 ### Voice Actors
-* Skye6890
-* Selene
+* Skye6890 - Voice Actor
+* Selene - Voice Actor
 
 ### Charters
 * raveneye - Charter
