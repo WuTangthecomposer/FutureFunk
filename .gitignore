@@ -9,6 +9,7 @@ art/test_x64-debug-officialrelease.bat
 export/*
 .vscode/*
 *.code-workspace
+vscode-project.hxml
 # Local history which shouldn't be shared.
 .history
 .ionide
