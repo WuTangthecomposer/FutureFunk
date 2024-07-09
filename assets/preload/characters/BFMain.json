@@ -1,103 +1,147 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-3,
 				-1
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "Idle instance 1"
+			"fps": 24,
+			"name": "Idle instance 1",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-35,
 				-11
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "Left instance 1"
+			"fps": 24,
+			"name": "Left instance 1",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				13,
 				-6
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "Down instance 1"
+			"fps": 24,
+			"name": "Down instance 1",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-33,
 				7
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "Up instance 1"
+			"fps": 24,
+			"name": "Up instance 1",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-28,
 				-5
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Right  instance 1",
+			"indices": []
+		},
+		{
 			"loop": false,
-			"name": "Right  instance 1"
+			"offsets": [
+				-34,
+				74
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Miss L instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				16,
+				55
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Miss D instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-28,
+				88
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Miss U instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-18,
+				73
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Miss R instance 1",
+			"indices": []
 		},
 		{
 			"offsets": [
 				-34,
-				83
+				-10
 			],
 			"indices": [],
 			"fps": 24,
-			"anim": "singLEFTmiss",
+			"anim": "singLEFT-alt",
 			"loop": false,
-			"name": "Miss L instance 1"
+			"name": "Left A instance 1"
 		},
 		{
 			"offsets": [
-				16,
-				64
+				39,
+				-9
 			],
 			"indices": [],
 			"fps": 24,
-			"anim": "singDOWNmiss",
+			"anim": "singRIGHT-alt",
 			"loop": false,
-			"name": "Miss D instance 1"
+			"name": "Right A instance 1"
+		},
+		{
+			"offsets": [
+				53,
+				-8
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "Down A instance 1"
 		},
 		{
 			"offsets": [
 				-28,
-				97
+				20
 			],
 			"indices": [],
 			"fps": 24,
-			"anim": "singUPmiss",
+			"anim": "singUP-alt",
 			"loop": false,
-			"name": "Miss U instance 1"
-		},
-		{
-			"offsets": [
-				-18,
-				81
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singRIGHTmiss",
-			"loop": false,
-			"name": "Miss R instance 1"
+			"name": "Up A instance 1"
 		}
 	],
 	"no_antialiasing": false,
